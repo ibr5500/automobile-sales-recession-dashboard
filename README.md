@@ -6,7 +6,7 @@ An interactive data visualization dashboard analyzing historical automobile sale
 
 ## 📝 Description
 
-This project was developed as part of the **IBM Data Analyst Professional Certificate** Final Assignment. The goal is to analyze how automobile sales at **XYZAutomotives** were affected during times of economic recession between **1980 and 2013**.
+This project was developed as part of the **IBM Data Analyst Professional Certificate** Final Assignment. The goal is to analyze how automobile sales at **XYZAutomotives** were affected during times of economic recession between **1980 and 2023**.
 
 The analysis explores key economic indicators such as **GDP**, **unemployment rate**, **consumer confidence**, and **advertising expenditure**, and how they correlate with automobile sales across different **vehicle types** and **time periods**.
 
@@ -21,7 +21,7 @@ The final deliverable is a fully interactive **Plotly Dash dashboard** with two 
 The dashboard contains two main report sections:
 
 ### 1. Yearly Automobile Sales Statistics
-Explore automobile sales trends for any selected year (1980–2013):
+Explore automobile sales trends for any selected year (1980–2023):
 - **Yearly Automobile Sales** — Line chart showing average sales across the entire period
 - **Total Monthly Automobile Sales** — Line chart displaying monthly totals for the selected year
 - **Average Vehicles Sold by Vehicle Type** — Bar chart breaking down sales by vehicle type
@@ -53,15 +53,7 @@ Understand how recessions impacted automobile sales:
 
 ```
 automobile-sales-recession-dashboard/
-│
-├── data/
-│   └── automobile_sales.csv        # Dataset (1980–2013)
-│
-├── assets/
-│   └── style.css                   # Dashboard styling
-│
-├── notebooks/
-│   └── EDA.ipynb                   # Exploratory Data Analysis
+
 │
 ├── dashboard.py                    # Main Dash application
 ├── requirements.txt                # Python dependencies
@@ -97,7 +89,7 @@ http://127.0.0.1:8050/
 
 ## 📈 Dataset
 
-The dataset covers automobile sales data from **1980 to 2013** and includes the following key columns:
+The dataset covers automobile sales data from **1980 to 2023** and includes the following key columns:
 
 | Column | Description |
 |---|---|
@@ -142,6 +134,6 @@ This project was developed as part of the **IBM Data Analyst Professional Certif
 
 ## 🙋 Author
 
-**Your Name**
+**Ibrahim Sallah**
 - GitHub: [@ibr5500](https://github.com/ibr5500)
 - LinkedIn: [Ibrahim Ahmat](https://www.linkedin.com/in/ibrahim-ahmat/)
